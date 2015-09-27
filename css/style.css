@@ -18,8 +18,8 @@ a {
 .logo {
   position: absolute;
   top: 50%;
-  width: 100px;
-  height: 33px;
+  width: 300px;
+  height: 100px;
   margin-top: -16px;
   display: block;
   background: url(../img/logo.png);
@@ -85,8 +85,8 @@ a {
 @media screen and (min-width: 768px) {
   .logo {
     left: 5%;
-    width: 200px;
-    height: 66px;
+/*    width: 200px;
+    height: 66px;*/
   }
   a[class^="link"] {
     font-size: 20px;
