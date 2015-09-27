@@ -1,0 +1,169 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  background: url(../img/bg-xl.jpg) right -400px center no-repeat fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 33px;
+  margin-top: -16px;
+  display: block;
+  background: url(../img/logo.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+[class^="link"] {
+  position: absolute;
+  right: 30%;
+  display: block;
+  width: 270px;
+  padding-left: 20px;
+  line-height: 62px;
+  color: #fff;
+  font-size: 12px;
+  background: url(../img/buttons-min.png) 0 -60px no-repeat;
+}
+
+.link01 {
+  top: 12%;
+  right: 26.8%;
+}
+
+.link02 {
+  top: 24%;
+  right: 19%;
+}
+
+.link03 {
+  top: 36%;
+  right: 14.6%;
+}
+
+.link04 {
+  top: 48%;
+  right: 13.1%;
+}
+
+.link05 {
+  top: 60%;
+  right: 14.3%;
+}
+
+.link06 {
+  top: 72%;
+  right: 18.6%;
+}
+
+.link07 {
+  top: 84%;
+  right: 26.5%;
+}
+
+@media screen and (min-width: 480px) {
+  a[class^="link"] {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    left: 5%;
+    width: 200px;
+    height: 66px;
+  }
+  a[class^="link"] {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-position: right -290px center;
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    -o-background-size: initial;
+    background-size: initial;
+  }
+  .logo {
+    top: 50%;
+    left: 10%;
+    margin-top: -50px;
+    width: 300px;
+    height: 100px;
+  }
+  .link01 {
+    right: 26.3%;
+  }
+  .link02 {
+    right: 23.4%;
+  }
+  .link03 {
+    right: 21.7%;
+  }
+  .link04 {
+    right: 20.4%;
+  }
+  .link05 {
+    right: 21%;
+  }
+  .link06 {
+    right: 22.9%;
+  }
+  .link07 {
+    right: 26.1%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-position: right top;
+  }
+  [class^="link"] {
+    position: fixed;
+  }
+  .link01 {
+    top: 180px;
+    right: 592px;
+  }
+  .link02 {
+    top: 280px;
+    right: 548px;
+  }
+  .link03 {
+    top: 380px;
+    right: 521px;
+  }
+  .link04 {
+    top: 480px;
+    right: 505px;
+  }
+  .link05 {
+    top: 580px;
+    right: 502px;
+  }
+  .link06 {
+    top: 680px;
+    right: 517px;
+  }
+  .link07 {
+    top: 780px;
+    right: 548px;
+  }
+}

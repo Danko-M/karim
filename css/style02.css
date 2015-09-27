@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #1BBC9B;
+}
+
+img {
+  max-width:100%; 
+  max-height:100%; 
+  width:auto;
+}
+@media screen and (min-width: 480px) {
+  
+}
+@media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 992px) {
+  
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1199px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 991px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 479px) {}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 319px) {}
