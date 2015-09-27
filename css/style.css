@@ -20,7 +20,7 @@ a {
   top: 50%;
   width: 300px;
   height: 100px;
-  margin-top: -16px;
+  margin-top: -50px;
   display: block;
   background: url(../img/logo.png);
   -webkit-background-size: cover;
@@ -43,7 +43,7 @@ a {
 
 .link01 {
   top: 12%;
-  right: 13.8%;
+  right: 12.3%;
 }
 
 .link02 {
@@ -73,7 +73,7 @@ a {
 
 .link07 {
   top: 84%;
-  right: 13.4%;
+  right: 10.4%;
 }
 
 @media screen and (min-width: 480px) {
@@ -85,8 +85,6 @@ a {
 @media screen and (min-width: 768px) {
   .logo {
     left: 5%;
-/*    width: 200px;
-    height: 66px;*/
   }
   a[class^="link"] {
     font-size: 20px;
@@ -102,11 +100,7 @@ a {
     background-size: initial;
   }
   .logo {
-    top: 50%;
     left: 10%;
-    margin-top: -50px;
-    width: 300px;
-    height: 100px;
   }
   .link01 {
     right: 26.3%;
