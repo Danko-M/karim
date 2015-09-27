@@ -7,7 +7,7 @@ body {
 
 body {
   position: relative;
-  background: url(../img/bg-xl.jpg) right -400px center no-repeat fixed;
+  background: url(../img/bg-xl.jpg) right -500px center no-repeat fixed;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -43,37 +43,37 @@ a {
 
 .link01 {
   top: 12%;
-  right: 26.8%;
+  right: 13.8%;
 }
 
 .link02 {
   top: 24%;
-  right: 19%;
+  right: 6.3%;
 }
 
 .link03 {
   top: 36%;
-  right: 14.6%;
+  right: 2.1%;
 }
 
 .link04 {
   top: 48%;
-  right: 13.1%;
+  right: 0.1%;
 }
 
 .link05 {
   top: 60%;
-  right: 14.3%;
+  right: 0.9%;
 }
 
 .link06 {
   top: 72%;
-  right: 18.6%;
+  right: 5.5%;
 }
 
 .link07 {
   top: 84%;
-  right: 26.5%;
+  right: 13.4%;
 }
 
 @media screen and (min-width: 480px) {
