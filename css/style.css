@@ -17,10 +17,10 @@ a {
 
 .logo {
   position: absolute;
-  top: 50%;
+  top: 42%;
+  left: 10%;
   width: 300px;
   height: 100px;
-  margin-top: -50px;
   display: block;
   background: url(../img/logo.png);
   -webkit-background-size: cover;
@@ -43,37 +43,37 @@ a {
 
 .link01 {
   top: 12%;
-  right: 12.3%;
+  right: 105px;
 }
 
 .link02 {
   top: 24%;
-  right: 6.3%;
+  right: 47px;
 }
 
 .link03 {
   top: 36%;
-  right: 2.1%;
+  right: 15px;
 }
 
 .link04 {
   top: 48%;
-  right: 0.1%;
+  right: 0;
 }
 
 .link05 {
   top: 60%;
-  right: 0.9%;
+  right: 6px;
 }
 
 .link06 {
   top: 72%;
-  right: 5.5%;
+  right: 40px;
 }
 
 .link07 {
   top: 84%;
-  right: 10.4%;
+  right: 102px;
 }
 
 @media screen and (min-width: 480px) {
@@ -83,9 +83,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .logo {
-    left: 5%;
-  }
   a[class^="link"] {
     font-size: 20px;
   }
@@ -103,7 +100,7 @@ a {
     left: 10%;
   }
   .link01 {
-    right: 24.6%;
+    right: 23.6%;
   }
   .link02 {
     right: 23.4%;
